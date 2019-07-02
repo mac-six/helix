@@ -12,6 +12,6 @@ public class TestController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello world";
+        return "Hello world - Heroku";
     }
 }
